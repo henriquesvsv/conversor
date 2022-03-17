@@ -1,0 +1,8 @@
+div#container{
+    display: flex;
+    height: 40vh;
+}
+
+h2{
+    padding: 30px;
+}

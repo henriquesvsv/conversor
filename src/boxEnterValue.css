@@ -1,0 +1,55 @@
+h1{
+    font-size: 40px;
+}
+
+h2#converter{
+    font-size: 30px;
+    padding: 0px;
+    color:#006400;
+}
+
+#container2{
+align-items: center;
+}
+
+#result{
+    height: 30px;
+        margin-left: 40vw;
+        -webkit-appearance: none;
+        
+        font-size: 30px;
+        border-color: #006400;
+        border: 8px 8px;
+        cursor:default;
+        margin-bottom: 10px;
+        margin-right: 40px;
+
+}
+
+#result:focus, input:focus{
+    outline: 0;
+    
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- Aparentemente, algumas margens ainda estão lá, apesar de estar ocultas */
+}
+
+#container3{
+    display:flexbox;
+    margin-left:40vw;
+    align-items: center;
+    
+}
+select{
+    height: 30px;
+    width: 90px;
+    margin: 10px 120px;
+}
+
+#valor{
+    margin-left:40vw;
+}
